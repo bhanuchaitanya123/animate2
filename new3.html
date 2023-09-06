@@ -1,0 +1,52 @@
+<html>
+<body>
+<div ><h2 class="k" contenteditable="true">text</h2></div>
+<div id="l"></div>
+ 
+ 
+<style>
+*{
+ margin:0px;
+ padding:0px;
+ font-family:sans-serif;
+}
+body{
+ height:100vh;
+ /*background:radial-gradient(rgb(5,221,245),rgb(6,150,253))*/
+ /*background:#d2e7ff;*/
+/* background:radial-gradient(#feada6,#f5efef)*/
+background:#07252d;
+}
+
+.k{
+ position:absolute;
+ top:245px;
+ left:300px;
+
+ /*height:30px;*/
+ /*width:200px;*/
+ font-size:100px;
+ text-align:center;
+ background:black;
+ font-size:6em;
+ letter-spacing:15px;
+ color:#0e3742;
+ text-transform:uppercase;
+ width:100%;
+ -webkit-box-reflect:below 1px linear-gradient(transparent,#0008);
+ line-height: 0.70em;
+ outline: none;
+ animation: animate 5s linear infinite;
+}
+@keyframes animate {
+ 0% {
+     color:#0e3742;
+ }
+ 100% {
+       color: #fff;
+       text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4, 0 0 80px #03bcf4, 0 0 160px #03bcf4;
+ }
+}
+</style>
+</body>
+</html>
